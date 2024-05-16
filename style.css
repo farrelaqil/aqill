@@ -1,0 +1,86 @@
+.navbar{
+    padding: 10px;
+    
+    color: rgb(0, 0, 0);
+    background-size: 200%;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin-top: -50px;
+    text-align: right;
+}
+li{
+   margin-left: 10px;
+   display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(Nube.jpeg);
+    background-repeat: no-repeat;
+   
+   background-size: cover;
+   
+}
+textarea{
+    
+    text-align: center;
+   
+}
+
+.kolom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    border-radius: 10px;
+    background-color: rgb(200, 235, 254);
+}
+input{
+    background-color: rgb(200, 235, 254);
+    border-radius: 5px;
+    
+}
+h1{
+    text-align: left;
+}
+@media (max-width: 580px){
+    h1{text-align: center;}
+    
+  
+   
+}
+@media (max-width: 580px){
+    ul{display: flex;}
+    ul{text-align: center;}
+    ul{margin-top: 30px;}
+    ul{justify-content: center;}
+    
+   
+}
+@media (max-width: 580px){
+    body{background-image: url(Watercolour\ Wallpaper.jpeg);}
+    textarea{
+        background-color: rgb(250, 215, 253);
+    }
+    textarea{column-width: 20px;}
+}
+
